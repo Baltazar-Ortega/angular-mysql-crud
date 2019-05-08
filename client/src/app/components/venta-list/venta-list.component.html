@@ -1,0 +1,22 @@
+
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Cliente</th>
+      <th scope="col">Empleado</th>
+      <th scope="col">Cosmetico</th>
+      <th scope="col">Comision</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let venta of ventas">
+      <td>{{venta.nombre_cliente}}</td>
+      <td>{{venta.nombre_empleado}}</td>
+      <td>{{venta.nombre_cosmetico}}</td>
+      <td>{{venta.comision}}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
